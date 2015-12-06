@@ -1,0 +1,22 @@
+{
+  "name": "simperium-sample",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "start": "babel-node server.js",
+    "prepublish": "npm run build",
+    "build": "`npm bin`/webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.0",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.1.1",
+    "html-webpack-plugin": "^1.7.0",
+    "json-loader": "^0.5.4",
+    "simperium": "github:simperium/node-simperium#server",
+    "webpack": "^1.12.9"
+  }
+}
