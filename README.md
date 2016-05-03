@@ -6,7 +6,7 @@ There is no auth. Any token is accepted and data will be partitioned under that 
 
 ## Running
 
-Too boot the server:
+To boot the server:
 
 `npm start`
 
